@@ -62,6 +62,7 @@ public class GroceryBilling {
         }
  
         System.out.println("\n========= RECEIPT =========");
+     System.out.println("Number of different items:" + itemNames.size());
        
         
     // FOR LOOP: this prints every item that was collected above
