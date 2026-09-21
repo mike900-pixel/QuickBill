@@ -5,7 +5,7 @@ public class GroceryBilling {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
        
- // Below we array-list to enable details to be listed.       
+ // Below we create Arraylists to store item details.      
         ArrayList<String> itemNames = new ArrayList<>();
         ArrayList<Integer> itemQty = new ArrayList<>();
         ArrayList<Double> itemPrices = new ArrayList<>();
@@ -21,7 +21,7 @@ public class GroceryBilling {
             int choice = sc.nextInt();
      
         
- // the if statement for selection 1: allows for continued suggestions. 
+ // the if statement for option 1: allows adding an item.
             if (choice == 1) {
                 sc.nextLine(); // clear the enter option to allow scan for next instead of pressing enter...
                 System.out.print("Enter item name: ");
